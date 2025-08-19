@@ -2,8 +2,7 @@ package TaskStoneScissorsPaper;
 
 public class GameRunner {
     public static void main(String[] args) {
-        GameLogic game = new GameLogic();
+        IGameLogic game = new GameLogicBasic();
         game.startGame();
-
     }
 }
